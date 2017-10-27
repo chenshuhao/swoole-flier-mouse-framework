@@ -4,8 +4,9 @@
   "license": "MIT",
   "version": "0.0.1",
   "require": {
-    "symfony/yaml": "^3.3",
-    "chenshuhao/swoole-flier-mouse-base":"^0.0.1"
+    "chenshuhao/swoole-flier-mouse-base":"^0.0.1",
+    "nikic/fast-route": "^1.2",
+    "nette/robot-loader": "^3.0"
   },
   "authors": [
     {
