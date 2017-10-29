@@ -2,7 +2,7 @@
   "name": "chenshuhao/swoole-flier-mouse-framework",
   "description": "swoole-flier-mouse-framework",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "require": {
     "chenshuhao/swoole-flier-mouse-base":"*",
     "nikic/fast-route": "^1.2",
