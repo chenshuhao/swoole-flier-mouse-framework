@@ -78,6 +78,7 @@ class App
 				$route[1][0]           = new $route[1][0];
 				$route[1][0]->request  = $request;
 				$route[1][0]->response = $response;
+				$route[1][0]->di       = self::$di;
 				$params                = $route[2];
 			}
 
