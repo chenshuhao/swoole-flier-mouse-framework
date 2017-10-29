@@ -29,6 +29,11 @@ class App
 		if (isset(self::$di['router'])) {
 			self::$di['router']->register();
 		}
+
+		if (isset(self::$di['db'])) {
+			self::$di['db']->register();
+		}
+
 		else {
 			Command::line('There is no registered route, and the default page will be accessed!');
 		}
